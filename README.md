@@ -37,8 +37,7 @@ This is a simple ERC-20 token contract written in Solidity. It allows for the cr
 
 #### Code
 ```solidity
-    Copy code
-
+    
     function mint(address _address, uint _value) public {
         totalSupply += _value;
         balances[_address] += _value;
@@ -51,8 +50,7 @@ This is a simple ERC-20 token contract written in Solidity. It allows for the cr
 
 #### Code
 ```solidity
-    Copy code
-    
+        
     function burn(address _address, uint _value) public {
         if(balances[_address] >= _value) {
             totalSupply -= _value;
