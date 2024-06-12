@@ -1,4 +1,4 @@
-MyEtherToken Contract
+MyToken Contract
 ================
 
 **Author**
