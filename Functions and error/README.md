@@ -34,7 +34,7 @@ To interact with this contract:
 ### requireExample Example
 
 ```solidity
-contract.requireExample(10);
+contract.requireExample(5);
 // This will succeed and set `num` to 5.
 
 contract.requireExample(0);
@@ -44,7 +44,7 @@ contract.requireExample(0);
 ### assertExample Example
 
 ```solidity
-contract.assertExample(10);
+contract.assertExample(3);
 // This will compute the result and return it.
 
 contract.assertExample(0);
